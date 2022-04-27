@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet">
+    <title>Contato</title>
+</head>
+</html>
+    <body>
+  
+        <nav class="nav">
+            <h2>The Flash</h2>
+            <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./filmes.html">Filmes</a></li>
+            <li> <a href="./quadrinhos.html">Quadrinhos</a></li>
+            <li> <a href="./seriados.html">Seriados</a></li>
+            <li class="selected"><a href="./contato.html">Contato</a></li>
+            </ul>        
+        </nav><!--nav-->
+
+        <nav class="nav-mobile">
+
+            <h2><img src="./icones/icons8-menu-30.png" alt=""></h2>
+         <ul>
+             <li class="selected"><a href="index.html">Home</a></li>
+             <li><a href="./filmes.html">Filmes</a></li>
+             <li><a href="./quadrinhos.html">Quadrinhos</a></li>
+             <li><a href="./seriados.html">Seriados</a></li>
+             <li><a href="./contato.html">Contato</a></li>
+         </ul>    
+        </nav>
+
+        <section class="form">
+
+        <div class="content">
+            <form action="" method="post" enctype="multipart/form-data">
+        <h1 class="titulo"></h1>
+
+        <div class="form-group">
+            <label class="label-control">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Insira seu nome" class="input-control">
+        </div>
+
+        <div class="form-group">
+            <label class="label-control"> E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Insira seu e-mail" class="input-control"> 
+        </div>
+
+        <div class="form-group">
+            <label class="label-control"> fone </label>
+            <input type="fone" name="fone" id="fone" placeholder="Insira seu fone" class="input-control">
+        </div>
+
+        <div class="form-group">
+            <label class="label-control"> Sobre </label>
+            <textarea name="sobre" id="sobre" cols="30" rows="5" placeholder="Coloque sua duvida ou sugestão aqui!" class="text-control"></textarea>
+        </div><!--content-->
+    </section><!--form-->
+
+    <div class="btn-control">
+            <h1>Enviar!</h1>
+    </div><!--btn-control-->
+    
+    <script src=" https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $('.nav-mobile h2').click(function(){
+            $('.nav-mobile ul').slideToggle();
+        });
+    </script>
+    
+    </body>
+    </html>

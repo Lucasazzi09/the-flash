@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet">
+    <title>The Flash</title>
+</head>
+    <body>
+        <nav class="nav">
+            <h2>The Flash</h2>
+        <ul>
+            <li class="selected"><a href="index.html">Home</a></li>
+            <li><a href="./filmes.html">Filmes</a></li>
+            <li><a href="./quadrinhos.html">Quadrinhos</a></li>
+            <li><a href="./seriados.html">Seriados</a></li>
+            <li><a href="./contato.html">Contato</a></li>
+        </ul>        
+       </nav><!--nav-->
+       
+       <nav class="nav-mobile">
+
+           <h2><img src="./icones/icons8-menu-30.png" alt=""></h2>
+        <ul>
+            <li class="selected"><a href="index.html">Home</a></li>
+            <li><a href="./filmes.html">Filmes</a></li>
+            <li><a href="./quadrinhos.html">Quadrinhos</a></li>
+            <li><a href="./seriados.html">Seriados</a></li>
+            <li><a href="./contato.html">Contato</a></li>
+        </ul>    
+       </nav>
+   
+        <div class="banner"> 
+            <img src="imagens/flash-eras-dos-quadrinhos.webp" alt="Flash">
+        </div><!--banner-->
+        
+        <section class="content">
+                <h2 class="titulo">The Flash</h2>
+
+                <img  src="imagens/flash-1229898_widelg.jpg" alt="Flash" class="image">
+
+                <p>"Flash" é um nome compartilhado por diversos super-heróis da DC Comics. Criado pelo escritor Gardner Fox e pelo artista Harry Lampert, o Flash original estreou em Flash Comics #1 (1940).
+                    Também chamado de Velocista Escarlate, o Flash possui velocidade e reflexos sobre-humanos e viola certas leis da física, podendo ultrapassar a velocidade da luz. Até então, quatro personagens ganharam a supervelocidade de modos diferentes e assumiram a identidade de Flash: Jay Garrick (1940-1956), Barry Allen (1956-1986, 2008-presente), Wally West (1986-2006, 2007-presente) e Bart Allen (2006-2007). </p>
+                    
+                <p>
+                    Barry Allen é considerado o primeiro super-herói da Era de Prata dos Quadrinhos e permaneceu como um dos mais populares desde então. Cada versão do Flash foi um membro-chave ou da Sociedade da Justiça da América ou da Liga da Justiça, os principais grupos da DC.
+                    Uma versão de Barry Allen foi vista em um seriado de TV estrelado por John Wesley Shipp, e uma versão de Wally West foi utilizada na série animada Liga da Justiça.   
+                    Por isso, se banhe de produtos químicos turbinados por um relâmpago, vista-se de vermelho, vibre na Força de Aceleração e atinja a velocidade da luz para curtir este website!</p>
+
+        </section><!--content-->  
+    
+
+        <!--footer-->
+        </div>
+        <div class="footer"> 
+            <div class="copy">&copy; Todos os direitos resevados</div>
+            <div class="dev"> Lucas WebSites </div>
+        </div><!--footer-->
+        
+        <script src=" https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+            $('.nav-mobile h2').click(function(){
+                $('.nav-mobile ul').slideToggle();
+            });
+        </script>
+
+    </body>
+</html>
